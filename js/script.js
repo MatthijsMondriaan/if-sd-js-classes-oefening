@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Constants
 const addPlayerButton = document.querySelector('.add-player-button');
 const deletePlayerButton = document.querySelector('.delete-player-button');
@@ -116,4 +115,3 @@ function printPlayers() {
     }
     playersLabel.innerHTML = playersText;
 }
->>>>>>> parent of 63700d7... Ready for students
