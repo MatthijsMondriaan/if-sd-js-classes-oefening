@@ -1,0 +1,132 @@
+  body {
+    background-color:#3900d6;
+    color: aliceblue;
+  }
+  
+  h1 {
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  h2 {
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  h3 {
+    font-family: helvetica;
+    text-align: center;
+  }
+  
+  p {
+    font-family: helvetica;
+    font-size: 20px;
+  }
+  
+  .centeredParagraph {
+      text-align: center;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    
+  * div {
+    font-family: helvetica;
+  }
+
+  .players-container {
+    /* background-color:#ccc2a6; */
+  }
+
+  .player-container {
+    vertical-align: middle;
+    /* background-color:#ccc2a6; */
+  }
+
+  .players-label {
+    font-size:18px;
+    color: yellow;
+  }
+  
+  .top-button-container {
+    float: right;
+  }
+  
+  .page-title {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .title-text {
+    font-weight: bold;
+  }
+
+  .input-field {
+    font-size:20px;
+  }
+    
+  .add-player-button {
+    background-color:magenta;
+    border-radius:15px;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:18px;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    border: none;
+    outline:none; 
+  }
+
+  .add-player-button:hover {
+    background-color:#ccc2a6;
+  }
+
+  .add-player-button:active {
+    position:relative;
+    top:1px;
+  }
+
+  .delete-player-button {
+    background-color:magenta;
+    border-radius:15px;
+    border:2px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff ;
+    font-family:Arial;
+    font-size:18px;
+    padding:12px 16px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffffff;
+    border: none;
+    outline:none; 
+  }
+  
+  .delete-player-button:hover {
+    background-color:#ccc2a6;
+  }
+
+  .delete-player-button:active {
+    position:relative;
+    top:1px;
+  }
+  
+  
+  
