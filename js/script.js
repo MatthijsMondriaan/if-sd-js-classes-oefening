@@ -1,3 +1,4 @@
+// Variables
 // Constants
 const addPlayerButton = document.querySelector('.add-player-button');
 const deletePlayerButton = document.querySelector('.delete-player-button');
