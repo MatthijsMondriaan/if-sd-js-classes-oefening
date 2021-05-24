@@ -55,6 +55,9 @@
     font-family: helvetica;
   }
 
+  .game-container {
+    width: 1000px;
+  }
 
   .player-info-container {
     height: 180px;
@@ -68,10 +71,14 @@
   .page-title {
     text-align: center;
     vertical-align: middle;
+    width: 1000px;
   }
   
   .title-text {
     font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    width: 1000px;
   }
 
   .input-field {
