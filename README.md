@@ -10,7 +10,7 @@ Task 4: Iedere player heeft een eigen knop zodra de Player is ingesteld. Gebruik
 
 Task 5: Programmeer de reset-knop om het spel te resetten (spelers te verwijderen).
 
-Challenge! Kun jij dit stuk code verbeteren volgens het DRY-principe?
+Challenge! Kun jij het stuk code bij Task 4 verbeteren volgens het DRY-principe?
 
 ## Programmeer de bijbehorende JavaScript in het bestand main.js. 
 
