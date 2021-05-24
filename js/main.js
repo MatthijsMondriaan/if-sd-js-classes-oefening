@@ -132,6 +132,7 @@ function addPointsPlayerOne() {
 
 function addPointsPlayerTwo() {
     // 🔴 Task 4b: add a point to score of player 2
+    console.log("Adding a point to score of player 2");
 }
 
 // 🟡 Challenge! Combine the 2 'add points' functions above into 1 function. 
@@ -149,20 +150,7 @@ function addPointsPlayerTwo() {
 
 class Player {
     // Don't forget the constructor method!
-    constructor(playerName, playerNumber) {
-        this.playerName = playerName;
-        this.playerNumber = playerNumber;
-        this.playerScore = 0;
 
-        if (this.playerNumber == 1) {
-            this.playerSymbol = 'X';
-        } else {
-            this.playerSymbol = 'O';
-        }
-    }
-
-    addPoints(points) {
-        this.playerScore += points;
-    }
+    //add points method comes here
 }
 // -----------------------------------
