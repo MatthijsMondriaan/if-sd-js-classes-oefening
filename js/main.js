@@ -13,8 +13,7 @@ const addPointsPlayerTwoButton = document.querySelector('.add-points-player2-but
 // Variables
 let players = []; // Array to store (2) players
 
-// Initialize game
-resetGame();
+resetGame(); // Initialize game
 
 // Event listeners
 if (addPlayerButton) {
@@ -42,7 +41,6 @@ function addPlayer() {
 
     if (players.length >= 2) {
         console.log("There are 2 players (or more) already. Press Reset button to start a new game.");
-        alert("There are 2 players already. Press Reset game button to start a new game.");
         
         return;
     }
@@ -52,16 +50,9 @@ function addPlayer() {
 
     if (players.length == 0) {
         //No players yet! Create player one
-        playerNumber = 1;
     } else {
         // Player one is waiting :-) Create player 2
-        playerNumber = 2;
     }
-
-    console.log("Creating player: " + playerNumber);
-
-    let player = new Player(playerName, playerNumber);
-    players.push(player);
 
     printPlayers();
 }
@@ -90,20 +81,14 @@ function printPlayers() {
 
     for(let i = 0; i < players.length; i++) {
         let player = players[i];
-        let playersText = "Name: " + player.playerName + "<br>";
-        playersText += "Symbol: " + player.playerSymbol + "<br>";
-        playersText += "Score: " + player.playerScore + "<br>";
+        //let playersText = "Name: " + player.playerName + "<br>"; etc..
 
         if (i == 0) { // Player One
-            let text = "<b>Player One:</b>" + "<br>"
-            text += playersText;
-            playerOneLabel.innerHTML = text;
+            //Set text of player One label
 
             addPointsPlayerOneButton.parentElement.style.visibility = "visible";// Show add points button
-        } else if (i == 1) {
-            let text = "<b>Player Two:</b>" + "<br>"
-            text += playersText;
-            playerTwoLabel.innerHTML = text;
+        } else if (i == 1) {            
+            //Set text of player One label
 
             addPointsPlayerTwoButton.parentElement.style.visibility = "visible";// Show add points button
         } else {
@@ -119,10 +104,6 @@ function resetGame() {
     // Hide add points buttons
     addPointsPlayerOneButton.parentElement.style.visibility = "hidden";
     addPointsPlayerTwoButton.parentElement.style.visibility = "hidden";
-
-    players = [];
-
-    printPlayers();
 }
 
 function addPointsPlayerOne() {
