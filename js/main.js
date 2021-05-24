@@ -128,19 +128,10 @@ function resetGame() {
 function addPointsPlayerOne() {
     // 🔴 Task 4a: add a point to score of player 1
     console.log("Adding a point to score of player 1");
-
-    players[0].addPoints(1);
-
-    printPlayers();
 }
 
 function addPointsPlayerTwo() {
     // 🔴 Task 4b: add a point to score of player 2
-    console.log("Adding a point to score of player 2");
-
-    players[1].addPoints(1);
-
-    printPlayers();
 }
 
 // 🟡 Challenge! Combine the 2 'add points' functions above into 1 function. 
