@@ -15,38 +15,59 @@
         <h2>
 		    ✌️ It takes two to Tic Tac Toe! ✌️
 		</h2>
-        <div class="row">
-            <div class="column">
+            <div class="game-container">
                 <div class="row">
-                    <p>
-                        Create a new player:
-                    </p>
-                    <input name="player-name" type="text" class="input-field input-field-player-name" placeholder="name">
-                </div>
-                <div class="row">
-                    <input name="player-symbol" type="text" class="input-field input-field-player-symbol" placeholder="symbol">
-                </div>
-                <div class="row">
-                    <input name="player-points" type="text" class="input-field input-field-player-points" placeholder="points">
-                </div>
-                <button type="button" class="add-player-button">Add player</button>
-                <br>
-            </div>
-            <div class="column">
-                <p>
-                    Delete the last player:
-                </p>
-                <button type="button" class="delete-player-button">Delete player</button>
-                <br>
+                    <div class="column add-players">
+                        <div class="row">
+                            Create a new player:
+                            <br>
+                            <input name="player-name" type="text" class="input-field input-field-player-name" placeholder="name">
+                        </div>
+                        <button type="button" class="button add-player-button">Add player</button>
+                        <div class="row">
+                            <p>
+                            <button type="button" class="button reset-game-button">Reset game</button>
+                            </p>
+                        </div>
+                    </div>
+                <row>
+                    <div class="column">
+                        <div class="player-info-container">
+                            <div class="player-one-label">
+                                Player One
+                            </div>
+                            <div>
+                                <button type="button" class="add-points-button add-points-player1-button">⬆️</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="player-info-container">
+                            <div class="player-two-label">
+                                Player Two
+                            </div>
+                            <div>
+                                <button type="button" class="add-points-button add-points-player2-button">⬆️</button>
+                            </div>
+                        </div>
+                    </div>
+                </row>
+                <row>
+                    <div class="tic-tac-toe-board">
+                        <div class="box">X</div>
+                        <div class="box">O</div>
+                        <div class="box">O</div>
+                        <div class="box">O</div>
+                        <div class="box">X</div>
+                        <div class="box">O</div>
+                        <div class="box">O</div>
+                        <div class="box">X</div>
+                        <div class="box">X</div>
+                      </div>
+                </row>
             </div>
         </div>
     </div>
-    <div>
-        <p>
-            Current players:
-        <p>
-        <div class="players-label"></div>
-    </div>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
